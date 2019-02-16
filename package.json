@@ -1,0 +1,30 @@
+{
+  "name": "indep-react-app-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "peerDependencies": {
+    "less": "^3.9.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "./node_modules/.bin/webpack --config webpack.config.js --mode production",
+    "build-dbg": "./node_modules/.bin/webpack --config webpack.config.js --mode development",
+    "test": "react-scripts test"
+  }
+}
