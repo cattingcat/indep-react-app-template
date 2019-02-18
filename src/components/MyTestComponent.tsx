@@ -1,12 +1,12 @@
 import * as React from 'react';
 import './MyTestComponent.less';
 
-class MyTextComponent extends React.Component {
+class MyTestComponent extends React.Component {
     render(): React.ReactNode {
         return <div className='test'>
-            hello
+            hello world
         </div>;
     }
 }
 
-export default MyTextComponent;
+export default MyTestComponent;
